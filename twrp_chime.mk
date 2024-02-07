@@ -34,4 +34,4 @@ PRODUCT_MODEL := SM6115
 PRODUCT_MANUFACTURER := Xiaomi
 
 # frstprjkt. TWRP version
-TW_DEVICE_VERSION  := frstprjkt
+TW_DEVICE_VERSION  := Unko
