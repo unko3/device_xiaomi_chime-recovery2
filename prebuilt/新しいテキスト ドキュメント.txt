@@ -1,0 +1,11 @@
+
+1 Dism /Image:.\Mount_Disc1 /Get-Drivers
+2 Dism /Image:.\Mount_Disc1 /Get-DriverInfo /Driver:oem10.inf
+3 Dism /Image:.\Mount_Disc1 /Remove-Driver /driver:oem10.inf
+4 Dism.exe /Image:.\Mount_Disc1 /Add-Driver /Driver:.\Drivers\Audio\WIN64\HDXRT.inf
+
+hdxrt
+
+
+Dism /Unmount-image /MountDir:.\Mount_Disc1 /Discard
+Dism /Unmount-image /MountDir:.\Mount_Disc2 /Discard
